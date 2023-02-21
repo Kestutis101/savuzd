@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: linear-gradient(#ebeff6, #edf2f6);
+  background-repeat: no-repeat;
+}
+
+header {
+  background: white;
+}
+
+nav {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: grey;
+  text-decoration: none;
+  background: white;
+  text-align: center;
+  margin: 0 3em;
+}
+
+nav a:hover,
+nav a:active {
+  color: #7385ec;
+}
+
+main h2 {
+  font-weight: 400;
+  margin: 12px 0;
+  font-size: 22px;
+}
+
+main h4 {
+  font-size: 14px;
+}
+
+main {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+main div {
+  width: 100%;
+  padding: 1em;
+}
+.container {
+  margin-bottom: 2em;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+input {
+  padding: 10px;
+  border-radius: 4px;
+  border: 0px solid grey;
+  box-shadow: 1px 1px 2px 1px grey;
+  width: 90%;
+}
+
+.button-wrapper {
+  width: 100%;
+  text-align: center;
+}
+main button {
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: white;
+  color: black;
+}
+
+.new-user-button {
+  background-color: #677de9;
+  color: white;
+}

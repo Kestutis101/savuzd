@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="add.css" />
+    <script src="add.js" type="module"></script>
+    <title>Add User</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="../index.html" class="membership">Memberships</a>
+        <a href="./add.html" class="user">Users</a>
+      </nav>
+    </header>
+    <main>
+      <h2>Create User</h2>
+      <div class="wrapper">
+        <div class="wrap-firstName">
+          <h4>First Name <span>*</span></h4>
+          <input type="firstName" placeholder="First Name" />
+        </div>
+        <div class="wrap-lastName">
+          <h4>Last Name <span>*</span></h4>
+          <input type="lastName" placeholder="Last Name" />
+        </div>
+        <div class="wrap-email">
+          <h4>Email Address <span>*</span></h4>
+          <input type="emailAddress" placeholder="Email Address" />
+        </div>
+        <div class="wrap-membership">
+          <h4>Change Membership</h4>
+          <select name="membership" id="membership">
+            <option value="trial">Trial</option>
+            <option value="silver">Silver</option>
+            <option value="bronze">Bronze</option>
+            <option value="gold">Gold</option>
+            <option value="platinum">Platinum</option>
+          </select>
+        </div>
+        <div class="button-wrapper">
+          <button class="cancel-button">Cancel</button>
+          <button class="new-user-button">New User</button>
+        </div>
+      </div>
+    </main>
+    <footer>Copyright ©2021 Memembership Manager</footer>
+  </body>
+</html>
